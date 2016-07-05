@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SiteView" xml:space="preserve">
+    <value>SELECT case charindex('-',Org2)
+			when 0 then Org2
+			when 1 then Org2
+			else left(Org2, charindex('-',Org2) - 1)
+			end as [SITE]
+	  ,ADName as [NAME]
+      ,[RegionDescrip] as [DISTRICT]
+	  ,Org4 as [TAG]
+	  ,[AddrLn1] as [ADDRESS1]
+      ,[AddrLn2] as [ADDRESS2]
+      ,[CITY]
+      ,[STATE]
+      ,CAST([Zip] as nvarchar) AS [ZIP]
+      ,[LastName] + ', ' + [FirstName] AS [CONTACT]
+      ,[PHONE] AS [PHONENUM]
+	  ,[EMAIL]
+	  ,ISNULL(CAST([SERIALNUMBER] AS nvarchar(200)),'') AS [SERIAL]
+	  ,ISNULL([MODEL],'') AS [MODEL]
+	  ,ISNULL([MANUFACTURER],'') AS [MANUFACTURER]
+	  ,ISNULL([SUBTYPE],'') AS [SUBTYPE]
+	  ,ISNULL(CAST([SYSTEMNUMBER] AS nvarchar(200)),'') AS [SYSTEMNUMBER]
+	  ,ISNULL([SYSTEMNAME],'') AS [SYSTEMNAME]
+	  ,ISNULL([SYSTEMDESCR],'') AS [SYSTEMDESCR]
+	  ,ISNULL(CAST([PARENT] AS nvarchar(200)),'') AS [PARENT]
+	  ,ISNULL(CAST([CHILDREN] AS nvarchar(200)),'') AS [CHILDREN]
+  FROM (
+  SELECT 
+	R.Org2
+	,AH.Name as ADNAME
+	,RegionDescrip
+	,Org4
+	,AddrLn1
+	,AddrLn2
+	,City
+	,State
+	,Zip
+	,LastName
+	,FirstName
+	,Phone
+	,Email
+	,AH.DateModified AS AHDate1
+	,AH.DateCreated AS AHDate2
+	,AI.DateModified AS AddDate1
+	,AI.SynchWriteDate AS AddDate2
+	,R.ModDate AS RelDate1
+	,R.SynchWriteDate AS RelDate2
+	--,AA.DateModified AS AADate1
+	--,AA.SynchWriteDate AS AADate2
+	,abs(DATEDIFF(mi,AH.DateModified,AH.DateCreated)) as AHDiff
+	,abs(DATEDIFF(mi,AI.DateModified,AI.DateCreated)) as AddDiff
+	,abs(DATEDIFF(mi,R.ModDate,R.CreateDate)) as RelDiff
+    ,AA.Name
+	,AA.StrVal
+
+  FROM
+  [PdbAddrHeader] AH
+  INNER JOIN [PdbAddrInfo] AI on AI.CompanyGUID = AH.CompanyGUID AND AI.[AddrGUID] = ( SELECT MAX(AI2.AddrGUID) FROM [PdbAddrInfo] AI2 WHERE AI2.[AddrNeutralId] = AI.[AddrNeutralId] )
+  INNER JOIN [Relay] R on (left(R.Org2, (case (charindex('-',R.Org2) - 1) when -1 then 10 when 0 then 10  else (charindex('-',R.Org2) - 1) end)) + '-2' = AI.AddrNeutralId OR left(R.Org2, (case (charindex('-',R.Org2) - 1) when -1 then 10 when 0 then 10  else (charindex('-',R.Org2) - 1) end)) = AI.AddrNeutralId) AND R.RelayGUID = ( SELECT MAX(R2.RelayGUID) FROM [Relay] R2 WHERE R2.Org4 = R.Org4)
+  LEFT JOIN [AssetAttribute] AA on R.RelayGUID = AA.RelayGUID
+  INNER JOIN [PdbRegions] RG on AI.[RegionGuid] = RG.[RegionGUID]
+  WHERE AH.bIsDel &lt;&gt; 1 AND AI.bIsDel &lt;&gt; 1 AND R.bIsDel &lt;&gt; 1 AND RG.bIsDel &lt;&gt; 1 AND RG.RegionDescrip &lt;&gt; 'Not Specified' AND RG.RegionDescrip &lt;&gt; 'Cross-Regional' OR AA.Name in ('SerialNumber','Model','Manufacturer','SubType','SystemNumber','SystemName','SystemDescr','Parent','Children')
+  ) p
+  PIVOT (
+	max(StrVal)
+	for Name in (SerialNumber,Model,Manufacturer,SubType,SystemNumber,SystemName,SystemDescr,Parent,Children)
+)x</value>
+  </data>
+</root>

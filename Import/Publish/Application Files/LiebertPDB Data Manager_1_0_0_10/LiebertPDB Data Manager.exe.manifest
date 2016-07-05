@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="LiebertPDB Data Manager.exe" version="1.0.0.10" publicKeyToken="9a3799408608e522" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="EmersonJPG.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LiebertPDB Data Manager" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="LiebertPDB Data Manager.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="ADODB" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DataAccess.dll" size="930304">
+      <assemblyIdentity name="DataAccess" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>+oHKjh7dcjcRrAhYmPtkjW9aSzM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LiebertPDB Data Manager.exe" size="414208">
+      <assemblyIdentity name="LiebertPDB Data Manager" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>6VtCa5a4ORxtOC4WnUmXi8sBP0w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PdbAPI.dll" size="154112">
+      <assemblyIdentity name="PdbAPI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>vDru7ZOLnWZFkm/r208uWiWCgq0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PdbLib.dll" size="20480">
+      <assemblyIdentity name="PdbLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>BBHxSNaZbjI2JHEnnHBv3EprkPE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="EmersonJPG.ico" size="183499">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>PXVOfq269hEHPIfQbkRiv3OU2gM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LiebertPDB Data Manager.exe.config" size="1334">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>v2gT0C+WPQ6YaWt1YeI7+qA4UaE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RegionMap.csv" size="858">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wxpvu3QhL0V4OhSRrkHi4wMmCOo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PowerDBInc-PC\PowerDB" issuerKeyHash="2ddb129073de3c468dd575369a62cbd88445bf9d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>j7HHiP74vpddLvta+ti/wHWR9SA=</DigestValue></Reference></SignedInfo><SignatureValue>K8Qn5oBh9bl+dRfJVcfW1wziGFVhKba3PuS8rccblE2sNPUTFwoaXRW4fyqIcw22ZpWDdDHVQSI9CX8XJ6jWp3axb50viX123PPMncdWRW1xXFPrwUTgmzN/QSYWxeMCTlV348Y46NI/XRcXE4y+mSO+Kh0MkYfz0a++fx6QheQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>swIWcPZ4Qv7EDPIvOi8ONRIHaxHdM8ctZZLhw9E7ZoP1eQGCEFFuX2zWnZUaGq8MFA47azKNrZwOGGghmcBNPptdjnKumqUpHfZHl0H0hForcOQZ2tatPwoBxL17RaGJjLrILhYjrIbqkX5mZ0ua3MRgXbUpsFY+Kf8hd/zyCj0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="20f59175c0bfd8fa5afb2e5d97bef8fe88c7b18f" Description="" Url=""><as:assemblyIdentity name="LiebertPDB Data Manager.exe" version="1.0.0.10" publicKeyToken="9a3799408608e522" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PowerDBInc-PC\PowerDB</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>WSZJF2+iZXqLf2M5xB9Abh25g4c=</DigestValue></Reference></SignedInfo><SignatureValue>br43XsRk7lMakEEBzzg7KP+TlSymxYhFVS78NsMBwyV8+Mteve2O95cBRrQ5hTAlZB24GvL1eSjB5VjgYhyK8BcvSoEB3aS8XDwDRW1H1CKqTWwi9uZvd1WQc/kO7/xAv/baOH+1q39bpTglCsclJrELxeQTEW000GY/l7txPr8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>swIWcPZ4Qv7EDPIvOi8ONRIHaxHdM8ctZZLhw9E7ZoP1eQGCEFFuX2zWnZUaGq8MFA47azKNrZwOGGghmcBNPptdjnKumqUpHfZHl0H0hForcOQZ2tatPwoBxL17RaGJjLrILhYjrIbqkX5mZ0ua3MRgXbUpsFY+Kf8hd/zyCj0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQbfwyhlIlUpZJckOy74cYczANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioAUABvAHcAZQByAEQAQgBJAG4AYwAtAFAAQwBcAFAAbwB3AGUAcgBEAEIwHhcNMTIwNDE4MTYxODEyWhcNMTMwNDE4MjIxODEyWjA1MTMwMQYDVQQDHioAUABvAHcAZQByAEQAQgBJAG4AYwAtAFAAQwBcAFAAbwB3AGUAcgBEAEIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALMCFnD2eEL+xAzyLzovDjUSB2sR3TPHLWWS4cPRO2aD9XkBghBRbl9s1p2VGhqvDBQOO2syja2cDhhoIZnATT6bXY5yrpqlKR32R5dB9IRaK3DkGdrWrT8KAcS9e0WhiYy6yC4WI6yG6pF+ZmdLmtzEYF21KbBWPin/IXf88go9AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAZKKqJoTanTBvXVoI4T1pqfjriPr6H0AS6Zbq4VG0wbBnajyWiz94Q6SZvz83hrZ1OCad1n/IeSGnjbnIwpdqRHUGhhDwk+DkU8GeUer3Fy6rmueRu4zMqwj4R8KOYQuyvqQ9hkeiGL5LQv2WZ5gexRtkXXB6azlkId/0v1Doo2A=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,59 @@
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\bin\Debug\UserAccounts.txt
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\bin\Debug\RegionMap.csv
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\bin\Debug\SubTypeMap.csv
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\bin\Debug\schema.ini
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\bin\Debug\LiebertPDB Data Manager.exe.config
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\bin\Debug\LiebertPDB Data Manager.exe.manifest
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\bin\Debug\LiebertPDB Data Manager.application
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\bin\Debug\LiebertPDB Data Manager.exe
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\bin\Debug\LiebertPDB Data Manager.pdb
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\bin\Debug\DataAccess.dll
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\bin\Debug\PdbAPI.dll
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\bin\Debug\PdbLib.dll
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\bin\Debug\Interop.ADOX.dll
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\obj\Debug\Interop.ADOX.dll
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\obj\Debug\LiebertPDB Datamanager.csproj.ResolveComReference.cache
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\obj\Debug\Import.EditValueForm.resources
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\obj\Debug\Import.LoginDlg.resources
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\obj\Debug\Import.MainForm.resources
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\obj\Debug\Import.Properties.Resources.resources
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\obj\Debug\LiebertPDB Datamanager.csproj.GenerateResource.Cache
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\obj\Debug\LiebertPDB Data Manager.TrustInfo.xml
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\obj\Debug\LiebertPDB Data Manager.exe.manifest
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\obj\Debug\LiebertPDB Data Manager.application
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\obj\Debug\LiebertPDB Data Manager.exe
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\obj\Debug\LiebertPDB Data Manager.pdb
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA\Import\obj\Debug\LiebertPDB Datamanager.csprojResolveAssemblyReference.cache
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\bin\Debug\LiebertPDB Data Manager.exe.config
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\obj\Debug\Interop.ADOX.dll
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\obj\Debug\LiebertPDB Datamanager.csproj.ResolveComReference.cache
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\obj\Debug\LiebertPDB Data Manager.exe
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\obj\Debug\LiebertPDB Data Manager.pdb
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\bin\Debug\UserAccounts.txt
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\bin\Debug\RegionMap.csv
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\bin\Debug\SubTypeMap.csv
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\bin\Debug\schema.ini
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\bin\Debug\LiebertPDB Data Manager.exe.manifest
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\bin\Debug\LiebertPDB Data Manager.application
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\bin\Debug\LiebertPDB Data Manager.exe
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\bin\Debug\LiebertPDB Data Manager.pdb
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\bin\Debug\DataAccess.dll
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\bin\Debug\PdbAPI.dll
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\bin\Debug\PdbLib.dll
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\bin\Debug\Interop.ADOX.dll
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\obj\Debug\Import.EditValueForm.resources
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\obj\Debug\Import.LoginDlg.resources
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\obj\Debug\Import.MainForm.resources
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\obj\Debug\Import.Properties.Resources.resources
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\obj\Debug\LiebertPDB Datamanager.csproj.GenerateResource.Cache
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\obj\Debug\LiebertPDB Data Manager.TrustInfo.xml
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\obj\Debug\LiebertPDB Data Manager.exe.manifest
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\obj\Debug\LiebertPDB Data Manager.application
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\bin\Debug\Properties\Settings1.Designer.cs
+C:\Users\nicoleta_prunean\Documents\Visual Studio 2015\Projects\Import - EMEA - Copy\Import\obj\Debug\LiebertPDB Datamanager.csprojResolveAssemblyReference.cache
+D:\GIT\DataMan\Import\bin\Debug\LiebertPDB Data Manager.exe.config
+D:\GIT\DataMan\Import\obj\Debug\Interop.ADOX.dll
+D:\GIT\DataMan\Import\obj\Debug\LiebertPDB Datamanager.csproj.ResolveComReference.cache
+D:\GIT\DataMan\Import\obj\Debug\LiebertPDB Data Manager.exe
+D:\GIT\DataMan\Import\obj\Debug\LiebertPDB Data Manager.pdb
+D:\GIT\DataMan\Import\obj\Debug\LiebertPDB Datamanager.csprojResolveAssemblyReference.cache

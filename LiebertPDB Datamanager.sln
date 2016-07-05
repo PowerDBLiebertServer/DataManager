@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiebertPDB Datamanager", "Import\LiebertPDB Datamanager.csproj", "{A0024741-9679-4752-AAB6-6A3BE9FD00F6}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DataManagerEMEASetup", "DataManagerEMEASetup\DataManagerEMEASetup.vdproj", "{B897B010-4595-424D-87C4-4793E63CB06E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0024741-9679-4752-AAB6-6A3BE9FD00F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0024741-9679-4752-AAB6-6A3BE9FD00F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0024741-9679-4752-AAB6-6A3BE9FD00F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0024741-9679-4752-AAB6-6A3BE9FD00F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B897B010-4595-424D-87C4-4793E63CB06E}.Debug|Any CPU.ActiveCfg = Debug
+		{B897B010-4595-424D-87C4-4793E63CB06E}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

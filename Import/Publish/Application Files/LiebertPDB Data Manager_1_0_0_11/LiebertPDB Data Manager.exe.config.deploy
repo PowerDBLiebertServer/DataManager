@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<configuration>
+<configSections>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+        <section name="Import.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+    </sectionGroup>
+</configSections>
+<startup><supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/></startup><userSettings>
+        <Import.Properties.Settings>
+            <setting name="ServerName" serializeAs="String">
+                <value>PDB_DEV_SQL</value>
+            </setting>
+            <setting name="PowerName" serializeAs="String">
+                <value>admkminton</value>
+            </setting>
+            <setting name="PowerPassword" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="smsdir" serializeAs="String">
+                <value>C:\</value>
+            </setting>
+            <setting name="newdir" serializeAs="String">
+                <value>C:\</value>
+            </setting>
+        </Import.Properties.Settings>
+    </userSettings>
+</configuration>
